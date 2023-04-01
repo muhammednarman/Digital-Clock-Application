@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: url(beautiful-shot-mountains-trees-covered-snow-fog.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.clock {
+  width: 500px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+.clock div {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(7, 0, 0);
+  border-radius: 5px;
+  backdrop-filter: blur(12px);
+  color: aliceblue;
+  font-size: 3.5em;
+  font-weight: 310;
+  box-shadow: 0 27px 27px rgb(#ff5e9a, #ffb960);
+  letter-spacing: 4px;
+}
+
+.clock span {
+  color: black;
+  font-size: 3em;
+}
+
+.hours {
+  background: -webkit-linear-gradient(90deg, #ff5e9a, #ffb960);
+}
+
+.minutes {
+  background: -webkit-linear-gradient(90deg, #ff5e9a, #ffb960);
+}
+
+.seconds {
+  background: -webkit-linear-gradient(90deg, #ff5e9a, #ffb960);
+}
